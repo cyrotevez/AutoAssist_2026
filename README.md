@@ -147,4 +147,4 @@ AI answers are labelled as preliminary guidance, not a professional diagnosis.
 | Signed in as wrong user / stuck | Profile > Log out. To wipe demo data: delete `autoassist.db` and restart the server. |
 
 Note for the report: SQLite is used for this prototype. Because the database code uses SQLAlchemy, moving to
-PostgreSQL later is mostly a one-line change of `DATABASE_URL`.
+PostgreSQL later is a one-line change of `DATABASE_URL`.
